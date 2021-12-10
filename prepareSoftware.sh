@@ -23,6 +23,12 @@ sudo apt install cmake numactl --yes
 # Download the code #
 #####################
 
-# Check out GBBS, the codebase that the paper submission contributed to.
+# Check out GBBS, the codebase that the paper submission contributed to,
+# and go to a fixed commit so that future changes to GBBS don't break the
+# reproducibility scripts
 cd ${HOME}
 git clone https://github.com/ParAlg/gbbs.git
+# TODO(tomtseng) update this commit value
+git checkout 361e1ba28eeba1dc9858b153f4d4f74fdfa66228
+git submodule init
+git submodule update
