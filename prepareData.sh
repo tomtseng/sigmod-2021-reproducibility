@@ -7,7 +7,6 @@ then
 fi
 
 cd ${HOME}/gbbs
-# TODO(tomtseng): change references to master to refer to instead  a specific commit
-git checkout master
+git checkout parallel-index-scan-reproducibility
 cd benchmarks/SCAN/IndexBased/experiments
 bash download_graphs.bash

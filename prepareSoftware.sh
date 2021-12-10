@@ -31,8 +31,7 @@ pip3 install sklearn
 # reproducibility scripts
 cd ${HOME}
 git clone https://github.com/ParAlg/gbbs.git
-# TODO(tomtseng) update this commit value and uncomment
-# git checkout 361e1ba28eeba1dc9858b153f4d4f74fdfa66228
 cd gbbs
+git checkout parallel-index-scan-reproducibility
 git submodule init
 git submodule update
