@@ -17,7 +17,10 @@ sudo apt update
 sudo apt install bazel-2.1.0 --yes
 sudo ln -s /usr/bin/bazel-2.1.0 /usr/bin/bazel
 
-sudo apt install cmake numactl python3.6-dev --yes
+sudo apt install cmake numactl --yes
+
+sudo apt install python3.6-dev python3-pip --yes
+pip3 install sklearn
 
 #####################
 # Download the code #
