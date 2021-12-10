@@ -20,11 +20,12 @@ Its Approximation](https://dl.acm.org/doi/abs/10.1145/3448016.3457278)_.
   - [Network Repository](https://networkrepository.com): [human-Jung2015-M87113878 (Brain Networks)](https://networkrepository.com/bn-human-Jung2015-M87113878.php)
   - [HumanBase](https://hb.flatironinstitute.org/): [cochlea top edges, blood vessel top edges](https://hb.flatironinstitute.org/download)
 - Hardware info
-  - The original experiments were run on Amazon Web Services EC2 instances.
-    All of the times were measured on a c5.24xlarge instance, but some of the
-    experiments measuring the quality of a clustering were run on a m5a.24xlarge
-    more memory was needed. The following stats are stats for the c5.24xlarge instance, except
-    that the amount of memory corresponds to that of the m5a.24xlarge instance.
+  - The original experiments were run on Amazon Web Services EC2 instances.  All
+    of the times were measured on a c5.24xlarge instance, but some of the
+    experiments measuring the quality of clusterings were run on a m5a.24xlarge
+    instance because more memory was needed. The following stats are stats for
+    the c5.24xlarge instance, except that the amount of memory corresponds to
+    that of the m5a.24xlarge instance.
   - Operating system: Ubuntu 18.04, 64-bit, x86
   - Processor: Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz, 48
     cores, 2 threads per core, 2 sockets
@@ -37,9 +38,9 @@ Its Approximation](https://dl.acm.org/doi/abs/10.1145/3448016.3457278)_.
 - Experimentation info:
   - Prepare the software: run `./prepareSoftware.sh`
     - There will be a prompt to install the Intel Math Kernel Library. Perform
-      the default installation and exit close the installer after it finishes.
+      the default installation and exit the installer once it finishes.
   - Download the datasets: run `./prepareData.sh`
   - Run the experiments: run `./runExperiments.sh`
     - This script outputs results in CSV format the `summary/` directory.
-    - The plots in the paper were created by manually entering of the results
+    - The plots in the paper were created by manually entering the results
       into LaTeX and using the `pgfplots` package.
