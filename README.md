@@ -13,8 +13,8 @@ Its Approximation](https://dl.acm.org/doi/abs/10.1145/3448016.3457278)_.
     - System: CMake, numactl, python3.6, python3.6-dev
     - Python: sklearn
     - [Intel Math Kernel Library (MKL)](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html)
-- Datasets: these graphs will be downloaded by ./prepareData.sh
-  - [Stanford Network Analysis Platform](https://snap.stanford.edu/data/bigdata/communities/):
+- Datasets: these graphs will be downloaded by `./prepareData.sh`
+  - [Stanford Network Analysis Platform](https://snap.stanford.edu):
     [com-Orkut](https://snap.stanford.edu/data/com-Orkut.html), [com-Friendster](https://snap.stanford.edu/data/com-Friendster.html)
   - [Laboratory for Web Algorithmics graphs](https://law.di.unimi.it/datasets.php): [WebBase](https://www.cise.ufl.edu/research/sparse/matrices/LAW/webbase-2001.html)
   - [Network Repository](https://networkrepository.com): [human-Jung2015-M87113878 (Brain Networks)](https://networkrepository.com/bn-human-Jung2015-M87113878.php)
@@ -26,7 +26,7 @@ Its Approximation](https://dl.acm.org/doi/abs/10.1145/3448016.3457278)_.
     - There will be a prompt to install the Intel Math Kernel Library. Perform
       the default installation and exit close the installer after it finishes.
   - Download the datasets: run `./prepareData.sh`
-  - Run the experiments: run ./runExperiments.sh
+  - Run the experiments: run `./runExperiments.sh`
     - This script outputs results in CSV format the `summary/` directory.
     - The plots in the paper were created by manually entering of the results
       into LaTeX and using the `pgfplots` package.
