@@ -21,11 +21,13 @@ Its Approximation](https://dl.acm.org/doi/abs/10.1145/3448016.3457278)_.
   - [HumanBase](https://hb.flatironinstitute.org/): [cochlea top edges, blood vessel top edges](https://hb.flatironinstitute.org/download)
 - Hardware info
   - The original experiments were run on Amazon Web Services EC2 instances.  All
-    of the times were measured on a c5.24xlarge instance, but some of the
-    experiments measuring the quality of clusterings were run on a m5a.24xlarge
-    instance because more memory was needed. The following stats are stats for
-    the c5.24xlarge instance, except that the amount of memory corresponds to
-    that of the m5a.24xlarge instance.
+    of the times were measured on a
+    [c5.24xlarge](https://aws.amazon.com/ec2/instance-types/c5/) instance, but
+    some of the experiments measuring the quality of clusterings were run on a
+    [m5a.24xlarge](https://aws.amazon.com/ec2/instance-types/m5/) instance
+    because more memory was needed. The following stats are stats for the
+    c5.24xlarge instance, except that the amount of memory corresponds to that
+    of the m5a.24xlarge instance.
   - Operating system: Ubuntu 18.04, 64-bit, x86
   - Processor: Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz, 48
     cores, 2 threads per core, 2 sockets
