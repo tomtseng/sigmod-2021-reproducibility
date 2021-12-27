@@ -46,3 +46,6 @@ Its Approximation](https://dl.acm.org/doi/abs/10.1145/3448016.3457278)_.
     - This script outputs results in CSV format the `summary/` directory.
     - The plots in the paper were created by manually entering the results
       into LaTeX and using the `pgfplots` package.
+    - Experiments for [GS*-Index](http://www.vldb.org/pvldb/vol11/p243-wen.pdf)
+      are omitted because the GS*-Index code was obtained via personal
+      correspondence with the authors and is not available publicly.
